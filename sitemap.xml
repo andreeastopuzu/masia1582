@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- ENGLISH PAGES -->
+  <url>
+    <loc>https://masia1582.com/en/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/masia/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/masia/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/masia/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/reviews/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/reviews/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/reviews/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/cava-tour/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/cava-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/cava-tour/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/gallery/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/gallery/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/availability/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/availability/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/availability/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/contact/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/contact/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/map/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/map/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/map/"/>
+  </url>
+  <url>
+    <loc>https://masia1582.com/en/about/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://masia1582.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://masia1582.com/ca/about/"/>
+  </url>
+
+  <!-- SPANISH PAGES -->
+  <url>
+    <loc>https://masia1582.com/es/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- CATALAN PAGES -->
+  <url>
+    <loc>https://masia1582.com/ca/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
