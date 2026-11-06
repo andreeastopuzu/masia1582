@@ -1,0 +1,35 @@
+# English pages
+/en/ /en/index.html 200
+/en/masia/ /en/masia.html 200
+/en/cava-tour/ /en/cava-tour.html 200
+/en/contact/ /en/contact.html 200
+/en/gallery/ /en/gallery.html 200
+/en/reviews/ /en/reviews.html 200
+/en/availability/ /en/availability.html 200
+/en/map/ /en/map.html 200
+/en/about/ /en/about.html 200
+
+# Spanish pages
+/es/ /es/index.html 200
+/es/masia/ /es/masia.html 200
+/es/cava-tour/ /es/cava-tour.html 200
+/es/contact/ /es/contact.html 200
+/es/gallery/ /es/gallery.html 200
+/es/reviews/ /es/reviews.html 200
+/es/availability/ /es/availability.html 200
+/es/map/ /es/map.html 200
+/es/about/ /es/about.html 200
+
+# Catalan pages
+/ca/ /ca/index.html 200
+/ca/masia/ /ca/masia.html 200
+/ca/cava-tour/ /ca/cava-tour.html 200
+/ca/contact/ /ca/contact.html 200
+/ca/gallery/ /ca/gallery.html 200
+/ca/reviews/ /ca/reviews.html 200
+/ca/availability/ /ca/availability.html 200
+/ca/map/ /ca/map.html 200
+/ca/about/ /ca/about.html 200
+
+# Prevent directory listings
+/*/  /*/index.html 200
