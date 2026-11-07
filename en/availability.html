@@ -93,41 +93,45 @@
 </nav>
 
 <section class="section" style="padding-top: calc(var(--header-height) + var(--space-xl));">
-  <div class="container">
+  <div class="container container--narrow text-center">
+
     <div class="section-header">
-      <p class="section-header__label">Calendar</p>
-      <h1 class="section-header__title">Check Availability</h1>
-      <p class="section-header__text">See which dates are available for your stay. Green dates are open for booking, grey dates are already reserved.</p>
+      <p class="section-header__label">Your Stay</p>
+      <h1 class="section-header__title">Check Availability &amp; Rates</h1>
+      <p class="section-header__text">
+        Planning a family holiday, group getaway or special celebration
+        at Masia St Salvador 1582?
+      </p>
     </div>
 
-    <div class="calendar-wrapper" data-reveal>
-      <div id="calendar-container">
-        <p style="text-align: center; color: var(--color-text-light); padding: var(--space-3xl);">Loading availability calendar...</p>
-      </div>
+    <div style="padding: var(--space-2xl); background: var(--color-bg-alt); border-radius: var(--radius-lg);">
 
-      <div style="display: flex; gap: var(--space-xl); justify-content: center; margin-top: var(--space-xl); flex-wrap: wrap;">
-        <div style="display: flex; align-items: center; gap: var(--space-sm);">
-          <span style="width: 20px; height: 20px; background: #e8f5e9; border-radius: var(--radius-sm); display: inline-block;"></span>
-          <span style="font-size: var(--text-sm);">Available</span>
-        </div>
-        <div style="display: flex; align-items: center; gap: var(--space-sm);">
-          <span style="width: 20px; height: 20px; background: #fce4ec; border-radius: var(--radius-sm); display: inline-block;"></span>
-          <span style="font-size: var(--text-sm);">Booked</span>
-        </div>
-      </div>
+      <h2 style="margin-bottom: var(--space-lg);">
+        Let's Plan Your Stay
+      </h2>
 
-      <p style="text-align: center; font-size: var(--text-xs); color: var(--color-text-light); margin-top: var(--space-lg);">Availability updates regularly. For real-time confirmation, please contact us directly.</p>
+      <p>
+        Tell us your preferred dates and number of guests.
+        We'll personally confirm availability and send you
+        our best direct-booking rate.
+      </p>
+
+      <a href="/en/contact.html"
+         class="btn btn--primary btn--lg"
+         style="margin-top: var(--space-lg);">
+        Enquire About Your Dates
+      </a>
+
+      <p style="font-size: var(--text-sm); margin-top: var(--space-lg);">
+        Personal response within 24 hours.
+        No booking obligation.
+      </p>
+
     </div>
 
-    <div style="margin-top: var(--space-3xl); text-align: center;" data-reveal>
-      <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-md);">Found Your Dates?</h2>
-      <p style="color: var(--color-text-light); margin-bottom: var(--space-lg);">Send us an inquiry and we&rsquo;ll confirm availability and provide a quote within 24 hours.</p>
-      <a href="/en/contact.html" class="btn btn--primary btn--lg">Book These Dates</a>
-    </div>
   </div>
 </section>
 
-<script src="/assets/js/calendar.js" defer></script>
   </main>
 
   <footer class="site-footer" role="contentinfo">
