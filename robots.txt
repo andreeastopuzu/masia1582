@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masia1582.com/sitemap.xml
