@@ -32,4 +32,4 @@
 /ca/about/ /ca/about.html 200
 
 # Prevent directory listings
-/*/  /*/index.html 200
+
