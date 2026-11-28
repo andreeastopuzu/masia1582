@@ -98,11 +98,14 @@
   .cellar-intro { max-width: 850px; margin: 0 auto; text-align: center; }
   .cellar-intro p { font-size: 1.1rem; line-height: 1.9; }
   .cellar-photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 40px; }
-  .cellar-photo-grid img { width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 8px; }
+  .cellar-photo-grid img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: contain; border-radius: 8px; }
   .cellar-photo-grid figure { margin: 0; }
   .cellar-photo-grid figcaption { font-size: .88rem; margin-top: 10px; color: var(--color-text-light); }
-  .cellar-film { max-width: 760px; margin: 48px auto 0; text-align: center; }
-  .cellar-film video { display: block; width: 100%; max-height: 680px; background: #172d25; border-radius: 10px; margin: 20px auto 0; }
+  .cellar-film { max-width: 900px; margin: 64px auto 0; display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: clamp(24px, 6vw, 72px); align-items: center; }
+  .cellar-film video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: contain; background: #172d25; border-radius: 10px; }
+  .cellar-film__copy { text-align: left; }
+  .cellar-film__copy p { line-height: 1.8; }
+  @media (max-width: 700px) { .cellar-film { grid-template-columns: 1fr; gap: 24px; margin-top: 40px; } .cellar-film video { max-width: 320px; margin: 0 auto; } .cellar-film__copy { text-align: center; } }
   .cellar-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
   .cellar-step { background: #fff; border: 1px solid #e7dfd2; border-radius: 10px; padding: 30px; }
   .cellar-step__number { color: #b78b47; font-family: 'Playfair Display', Georgia, serif; font-size: 2.2rem; }
@@ -141,12 +144,17 @@
       </figure>
     </div>
     <div class="cellar-film">
-      <h2 class="section-header__title">A Glimpse Inside the Cellar</h2>
-      <p>Share a moment with our guests and discover the warmth of a traditional Catalan evening.</p>
-      <video controls playsinline preload="none" poster="/assets/cellar-wine-tasting-friends.webp" aria-label="The Masia 1582 Cellar Experience film">
+      <video controls playsinline preload="none" poster="/assets/catalan-porro-white-wine.webp" aria-label="The Masia 1582 Cellar Experience film">
         <source src="/assets/masia1582-cellar-experience.mp4" type="video/mp4">
         Your browser does not support video playback.
       </video>
+      <div class="cellar-film__copy">
+        <p class="section-header__label">Authentic Catalonia</p>
+        <h2 class="section-header__title">A Glimpse Inside the Cellar</h2>
+        <p>Share a moment with our guests and discover the warmth of a traditional Catalan evening. Local wines, sparkling cava and the tradition of the porró — enjoyed together in our historic cellar.</p>
+        <p>Exclusively for guests staying at the Masia.</p>
+        <a href="/en/contact.html" class="btn btn--primary" style="margin-top: 18px;">Enquire About Your Stay</a>
+      </div>
     </div>
   </div>
 </section>
