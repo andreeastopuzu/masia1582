@@ -97,14 +97,16 @@
   .cellar-hero__intro { font-size: 1.18rem; max-width: 640px; margin-top: 24px; line-height: 1.7; color: #f5eee3; }
   .cellar-intro { max-width: 850px; margin: 0 auto; text-align: center; }
   .cellar-intro p { font-size: 1.1rem; line-height: 1.9; }
-  .cellar-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 720px; margin: 36px auto 0; }
+  .cellar-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 580px; margin: 36px auto 0; }
   .cellar-photo-grid img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: contain; border-radius: 8px; }
   .cellar-photo-grid figure { margin: 0; }
-  .cellar-photo-grid figcaption { font-size: .88rem; margin-top: 10px; color: var(--color-text-light); }
+  .cellar-photo-grid figcaption { font-size: .88rem; margin-top: 10px; color: var(--color-text-light); text-align: center; }
   .cellar-film { max-width: 900px; margin: 64px auto 0; display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: clamp(24px, 6vw, 72px); align-items: center; }
   .cellar-film video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: contain; background: #172d25; border-radius: 10px; }
   .cellar-film__copy { text-align: left; }
-  .cellar-film__copy p { line-height: 1.8; }
+  .cellar-film__copy p { font-size: 1.1rem; line-height: 1.8; }
+  .cellar-film__copy .section-header__label { font-size: .85rem; }
+  .page-cava .cellar-media-section { padding-bottom: 36px; }
   @media (max-width: 700px) { .cellar-film { grid-template-columns: 1fr; gap: 24px; margin-top: 40px; } .cellar-film video { max-width: 320px; margin: 0 auto; } .cellar-film__copy { text-align: center; } }
   .cellar-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 40px; }
   .cellar-step { background: #fff; border: 1px solid #e7dfd2; border-radius: 10px; padding: 30px; }
@@ -112,7 +114,7 @@
   .cellar-step h3 { margin: 12px 0; }
   .cellar-cta { max-width: 800px; margin: 0 auto; text-align: center; padding: 45px 28px; border: 1px solid #e1d3bd; border-radius: 12px; background: #fff; }
   .cellar-cta__price { color: #a47735; font-weight: 600; letter-spacing: .08em; margin: 18px 0; }
-  @media (max-width: 700px) { .cellar-photo-grid, .cellar-steps { grid-template-columns: 1fr; } .cellar-photo-grid { max-width: 320px; gap: 24px; } .cellar-photo-grid img { height: auto; } .cellar-hero { min-height: 450px; } .cellar-hero__content { padding-bottom: 38px; } }
+  @media (max-width: 700px) { .cellar-photo-grid, .cellar-steps { grid-template-columns: 1fr; } .cellar-photo-grid { max-width: 280px; gap: 24px; } .cellar-photo-grid img { height: auto; } .cellar-hero { min-height: 450px; } .cellar-hero__content { padding-bottom: 38px; } }
 </style>
 
 <section class="cellar-hero" aria-labelledby="cellar-title">
@@ -125,7 +127,7 @@
   </div>
 </section>
 
-<section class="section" data-reveal>
+<section class="section cellar-media-section" data-reveal>
   <div class="container">
     <div class="cellar-intro">
       <p class="section-header__label">A taste of the Masia</p>
