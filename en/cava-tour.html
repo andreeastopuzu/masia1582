@@ -97,7 +97,7 @@
   .cellar-hero__intro { font-size: 1.18rem; max-width: 640px; margin-top: 24px; line-height: 1.7; color: #f5eee3; }
   .cellar-intro { max-width: 850px; margin: 0 auto; text-align: center; }
   .cellar-intro p { font-size: 1.1rem; line-height: 1.9; }
-  .cellar-photo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 40px; }
+  .cellar-photo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 720px; margin: 36px auto 0; }
   .cellar-photo-grid img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: contain; border-radius: 8px; }
   .cellar-photo-grid figure { margin: 0; }
   .cellar-photo-grid figcaption { font-size: .88rem; margin-top: 10px; color: var(--color-text-light); }
@@ -112,7 +112,7 @@
   .cellar-step h3 { margin: 12px 0; }
   .cellar-cta { max-width: 800px; margin: 0 auto; text-align: center; padding: 45px 28px; border: 1px solid #e1d3bd; border-radius: 12px; background: #fff; }
   .cellar-cta__price { color: #a47735; font-weight: 600; letter-spacing: .08em; margin: 18px 0; }
-  @media (max-width: 700px) { .cellar-photo-grid, .cellar-steps { grid-template-columns: 1fr; } .cellar-photo-grid img { height: auto; } .cellar-hero { min-height: 450px; } .cellar-hero__content { padding-bottom: 38px; } }
+  @media (max-width: 700px) { .cellar-photo-grid, .cellar-steps { grid-template-columns: 1fr; } .cellar-photo-grid { max-width: 320px; gap: 24px; } .cellar-photo-grid img { height: auto; } .cellar-hero { min-height: 450px; } .cellar-hero__content { padding-bottom: 38px; } }
 </style>
 
 <section class="cellar-hero" aria-labelledby="cellar-title">
